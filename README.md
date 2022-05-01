@@ -1,5 +1,5 @@
 # ROS
-# RPL
+# L
 Cài RP LIDAR.
 B1: cd catkin_ws/src
 
