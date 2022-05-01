@@ -1,2 +1,17 @@
 # ROS
-![Screenshot from 2022-05-01 15-17-10](https://user-images.githubusercontent.com/81356543/166137965-b14f5772-5dee-4c39-94a3-36f25a468ec2.png)
+# RPL
+Cài RP LIDAR 
+cd catkin_ws/src
+git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam
+cd ..
+source devel/setup.bash
+catkin_make --pkg hector_mapping
+catkin_make --pkg hector_geotiff_plugins
+catkin_make --pkg hector_trajectory_server
+catkin_make --pkg hector_geotiff
+
+SET UP hector_slam
+https://www.youtube.com/watch?v=Qrtz0a7HaQ4&t=214s
+https://hackaday.io/project/7284-oscar-omni-service-cooperative-assistant-robot/log/26164-first-foray-into-ros
+https://community.husarion.com/t/hector-slam-on-rosbot-pro-2-0/740
+
