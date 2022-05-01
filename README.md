@@ -1,14 +1,15 @@
 # ROS
 # RPL
-Cài RP LIDAR 
-cd catkin_ws/src
-git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam
-cd ..
-source devel/setup.bash
-catkin_make --pkg hector_mapping
-catkin_make --pkg hector_geotiff_plugins
-catkin_make --pkg hector_trajectory_server
-catkin_make --pkg hector_geotiff
+Cài RP LIDAR.
+B1: cd catkin_ws/src
+
+B2 : git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam
+B3: cd ..
+    source devel/setup.bash
+    catkin_make --pkg hector_mapping
+    catkin_make --pkg hector_geotiff_plugins
+    catkin_make --pkg hector_trajectory_server
+    catkin_make --pkg hector_geotiff
 
 SET UP hector_slam
 https://www.youtube.com/watch?v=Qrtz0a7HaQ4&t=214s
