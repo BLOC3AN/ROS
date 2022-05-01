@@ -1,6 +1,6 @@
 # ROS
 # RPLIDAR
-!Cài RP LIDAR.
+Cài RP LIDAR.
 B1: cd catkin_ws/src
 
 B2 : git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam
